@@ -2,7 +2,7 @@ import about1 from "../../assets/images/about1.svg";
 import about2 from "../../assets/images/about2.svg";
 import about3 from "../../assets/images/about3.svg";
 import about4 from "../../assets/images/about4.svg";
-import universal from "../../assets/images/about.png";
+import universal from "../../assets/images/about.jpg";
 import house from "../../assets/images/house.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -39,9 +39,7 @@ const About = () => {
             <img className="about_card_left_img" src={universal} alt="" />
             <div className="about_map_text">
               <p className="about_map_text_text">
-                Qoʻqon shahrining musaffo havosi va dilkash insonlaridan
-                ilhomlanilgan holda qurilayotgan loyiha uzoq yillar davomida
-                xalqimizga munosib xizmat koʻrsatadi.
+              Minor Avenue — bu qulaylik, zamonaviylik va sifatning ideal uygʻunligi. Bu yerda siz nafaqat shinam muhitda yashaysiz, balki haqiqiy farovonlikni his qilasiz.
               </p>
               <p className="about_map_text_text2">Xaritada ko‘rish</p>
             </div>
