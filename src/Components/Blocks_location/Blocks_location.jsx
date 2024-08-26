@@ -83,9 +83,10 @@ const Blocks_location = () => {
               <div className="blocks_location_icon_text">
                 <div className="blocks_location_svg_box">
                   <svg
-                    width="72"
-                    height="72"
-                    viewBox="0 0 72 72"
+                   className="blocks_location_svg_card"
+                   width="80"
+                   height="80"
+                   viewBox="0 0 80 80"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >

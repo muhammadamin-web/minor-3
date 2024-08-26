@@ -128,15 +128,12 @@ const Nav = () => {
                       </a>
                     </div>
                     <div className="nav_card_right menu">
-                      <div className="nav_contact">
+                    <a href="tel:1361" className="nav_contact">
                         <PiPhoneCallLight className="nav_phone_icon" />
-                        <Link   smooth={true}
-                          duration={500}
-                          offset={-50} to="form"  href="#!"                     onClick={() => setActive(false)}
-                          className="nav_contact_text">
+                        <span href="tel:1361" className="nav_contact_text" onClick={() => setActive(false)}>
                           1361
-                        </Link>
-                      </div>
+                        </span>
+                      </a>
                       <div className="nav_download">
                         <RxDownload className="nav_phone_icon" />
                         <div className="nav_download_card">
@@ -151,18 +148,14 @@ const Nav = () => {
                 </div>
               </div>
               <div className="nav_card_right">
-                <div className="nav_contact">
-                  <PiPhoneCallLight className="nav_phone_icon" />
-                  <Link  smooth={true}
-                          duration={500}
-                          offset={-50} to="form"  href="#!"
-                           className="nav_contact_text">
-                    1361
-                  </Link>
-                  <IoMenu
-                    className="nav_menu"
-                    onClick={() => setActive(true)}
-                  />
+              <div className="nav_contact">
+                <a href="tel:1361" className="nav_contact">
+                    <PiPhoneCallLight className="nav_phone_icon" />
+                    <span className="nav_contact_text">
+                      1361
+                    </span>
+                  </a>
+                  <IoMenu className="nav_menu" onClick={() => setActive(true)} />
                 </div>
                 <div className="nav_download download">
                   <RxDownload className="nav_phone_icon" />
